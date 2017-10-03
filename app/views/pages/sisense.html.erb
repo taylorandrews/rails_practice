@@ -16,11 +16,11 @@
   <!-- javascript to init sisense objects -->
   <script type = "text/javascript">
     Sisense.connect('https://msmecor.com/app/main#/dashboards/59ce0a611d784e402600002a/widgets/59ce0a761d784e402600002f', false).then(function(app) {
-      app.dashboards.load('59ce0a611d784e402600002a').then(function(dash){ //replace with your dashboard id
-               dash.widgets.get('59ce77001d784e4026000132').container = document.getElementById("widget1"); //replace with one of your widgets' id.
-               dash.widgets.get('59ce0a761d784e402600002f').container = document.getElementById("logo"); //replace with another of your widgets' id.
-               dash.renderFilters(document.getElementById("filters"));
-               dash.refresh();
+      app.dashboards.load('59ce0a611d784e402600002a').then(function(dash){
+        dash.widgets.get('59ce77001d784e4026000132').container = document.getElementById("ontime");
+        dash.widgets.get('59ce0a761d784e402600002f').container = document.getElementById("logo");
+        dash.renderFilters(document.getElementById("filters"));
+        dash.refresh();
     });
   });
   </script>
@@ -45,7 +45,7 @@
 
   <!-- html using sisense js objects -->
    <div id = "sisenseApp">
-        <div class = "Tab1" id = "widget1" style = "height: 200px; width: 100%; float: left; display: inline; margin-top:30px;"></div>
+        <div class = "Tab1" id = "ontime" style = "height: 200px; width: 100%; float: left; display: inline; margin-top:30px;"></div>
         <!-- <div class = "Tab1" id = "logo" style = "height: 400px; width: 40%; float: left; top: 500px; display: inline; margin-top:30px;"></div>
         <div id = "filters" style = "height: 400px; width: 25%; float: left; top: 80px; left: 0px; display: inline; margin-top:80px;"></div> -->
    </div>

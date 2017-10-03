@@ -1887,3 +1887,59 @@ Processing by PagesController#sisense as HTML
 Completed 200 OK in 16ms (Views: 14.7ms)
 
 
+Started GET "/pages/sisense" for 127.0.0.1 at 2017-10-03 14:35:45 -0600
+Processing by PagesController#sisense as HTML
+  Rendering pages/sisense.html.erb within layouts/application
+  Rendered pages/sisense.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 341ms (Views: 172.2ms)
+
+
+Started GET "/pages/sisense" for 127.0.0.1 at 2017-10-03 14:39:04 -0600
+Processing by PagesController#sisense as HTML
+  Rendering pages/sisense.html.erb within layouts/application
+  Rendered pages/sisense.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 18.3ms)
+
+
+Started GET "/pages/sisense" for 127.0.0.1 at 2017-10-03 14:39:54 -0600
+Processing by PagesController#sisense as HTML
+  Rendering pages/sisense.html.erb within layouts/application
+  Rendered pages/sisense.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 17.8ms)
+
+
+Started GET "/pages/sisense" for 127.0.0.1 at 2017-10-03 15:05:18 -0600
+Processing by PagesController#sisense as HTML
+  Rendering pages/sisense.html.erb within layouts/application
+  Rendered pages/sisense.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 24ms (Views: 20.7ms)
+
+
+Started GET "/pages/sisense" for 127.0.0.1 at 2017-10-03 15:42:46 -0600
+Processing by PagesController#sisense as HTML
+  Rendering pages/sisense.html.erb within layouts/application
+  Rendered pages/sisense.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 29.7ms)
+
+
+Started GET "/pages/sisense" for 127.0.0.1 at 2017-10-03 16:03:56 -0600
+Processing by PagesController#sisense as HTML
+  Rendering pages/sisense.html.erb within layouts/application
+  Rendered pages/sisense.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 36ms (Views: 33.2ms)
+
+
+Started GET "/pages/sisense" for 127.0.0.1 at 2017-10-03 16:05:58 -0600
+Processing by PagesController#sisense as HTML
+  Rendering pages/sisense.html.erb within layouts/application
+  Rendered pages/sisense.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26ms (Views: 23.7ms)
+
+
+Started GET "/pages/sisense" for 127.0.0.1 at 2017-10-03 16:06:43 -0600
+Processing by PagesController#sisense as HTML
+  Rendering pages/sisense.html.erb within layouts/application
+  Rendered pages/sisense.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 33ms (Views: 29.9ms)
+
+
